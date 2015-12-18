@@ -6,10 +6,12 @@ public class SingletonInHolder {
         static private SingletonInHolder instance = new SingletonInHolder();
     }
 
+    
     private SingletonInHolder() {
 
     }
 
+    
     public static SingletonInHolder getInstance() {
         return Holder.instance;
     }
